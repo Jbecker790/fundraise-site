@@ -241,7 +241,8 @@ function Shop({ cart, addToCart, updateQty, checkout, volume }) {
           ) : (
             <div className="space-y-3">
               {Object.entries(cart).map(([pid, q]) => {
-                const p = PRODUCTS.find((x) => x.id === pid)!;
+                const p = PRODUCTS.find((x) => x.id === pid);
+                if (!p) return null;
                 return (
                   <div key={pid} className="flex items-center justify-between gap-3">
                     <div>
@@ -344,7 +345,8 @@ function Dashboard({ groupName, setGroupName, goal, setGoal, totals, volume }) {
           <h3 className="font-semibold mb-3">Volumes par produit</h3>
           <div className="grid sm:grid-cols-3 gap-3">
             {Object.entries(volume).map(([pid, qty]) => {
-              const p = PRODUCTS.find((x) => x.id === pid)!;
+              const p = PRODUCTS.find((x) => x.id === pid);
+              if (!p) return null;
               const tier = getTierForVolume(p, qty);
               return (
                 <div key={pid} className="p-3 rounded-xl border text-sm">
