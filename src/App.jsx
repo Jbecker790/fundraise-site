@@ -22,7 +22,7 @@ const PRODUCTS = [
     desc: "Biscuits artisanaux, confiture & chocolat. Étiquette personnalisée.",
     baseCost: 12,
     price: 25,
-    img: "https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?q=80&w=1200&auto=format&fit=crop",
+    img: "https://lespetitsproducteurs.be/wp-content/uploads/2021/11/loccio-coffret-cadeau.jpg",
     tiers: [
       { min: 0, platform: 6, group: 7 },
       { min: 100, platform: 5, group: 8 },
@@ -35,7 +35,7 @@ const PRODUCTS = [
     desc: "Acier 500ml, réutilisable. Gravure logo du groupe.",
     baseCost: 6,
     price: 15,
-    img: "https://images.unsplash.com/photo-1561214078-f3247647fc5e?q=80&w=1200&auto=format&fit=crop",
+    img: "https://www.tiptopcoffee.be/491-large_default/qwetch-gourde-active-inox-600-ml.webp",
     tiers: [
       { min: 0, platform: 3, group: 6 },
       { min: 150, platform: 2.5, group: 6.5 },
@@ -48,7 +48,7 @@ const PRODUCTS = [
     desc: "Parfum lin propre. Étiquette \"Voyage 2025\".",
     baseCost: 4,
     price: 12,
-    img: "https://images.unsplash.com/photo-1533777324565-a040eb52fac1?q=80&w=1200&auto=format&fit=crop",
+    img: "https://www.plantesetparfums.com/cdn/shop/files/Cat-Bougies_a106e8bc-64c4-4799-a1fc-16ed83a6c4ad.png?v=1712931328&width=560",
     tiers: [
       { min: 0, platform: 2, group: 6 },
       { min: 200, platform: 1.6, group: 6.4 },
